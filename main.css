@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+.body{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+header{
+    height: 7rem;
+}
+
+
+.navbar{
+    background-color: #000000;
+}
+
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+#logo{
+    width: 15% ;
+    height: auto;
+}
+
+
+
+.fade-carousel .carousel-inner,.fade-carousel {
+    background-color: transparent;
+}
+
+.fade-carousel .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.fade-carousel .carousel-item.active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.carousel-img{
+    width: 100% ;
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cursos .nav-link.active:hover{
+    color:#f3b408;
+}
+
+
+.section-title{
+    font-family: 'Dancing Script', cursive;
+}
+
+.section-title span{
+    color: #f3b408;
+}
+
+#sobre-nos, #cursos{
+    background-color: #000000;
+}
+
+
+.sobre{
+    background-color: #000000;
+    color: #fff;
+}
+
+#eventos{
+    background-color: #e6c57e70;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.text-colored{
+    color:#f3b408d0;
+}
+
+#cursos {
+    color:#ffffffd7;
+    
+}
+
+#cursos h5, .col-md-3 h5{
+    font-family: 'Dancing Script', cursive;
+    font-size:x-large;
+}
+.nav-cursos .nav-link.active  {
+    background-color:#ffffff;
+    color: #000000;
+}
+
+
+
+#fale-conosco{
+    background-color: #000000;
+    color: #ffffffc7;
+}
+
+#fale-conosco button{
+    background-color: #f3b408;
+    color: #000000;
+}
+
+.nav-cursos .nav-link:hover {
+    color:#ffffff;
+    
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    background-color: #f3b408;
+
+}
+
+#menu-navegacao .nav-item.active a.nav-link {
+    background-color: #f3b408; 
+    color: #000000; 
+    border-radius: 5px; 
+    padding: 5px 15px; 
+    transition: background-color 0.5s, color 0.3s; 
+}
+
+#menu-navegacao .nav-item.active a.nav-link:hover {
+    color: #fff;
+}
+
+
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+ 
+}
