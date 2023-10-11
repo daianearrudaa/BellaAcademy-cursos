@@ -145,12 +145,22 @@ header{
     color: #fff;
 }
 
+.nav .nav-link.active {
+    background-color: transparent; 
+    color: #fff; 
+}
 
 
-@media (max-width:767px){
+@media (max-width:980px){
     .carousel-item img{
         height: 280px;
     }
 
+    #menu-navegacao{
+        background-color: #000000;
+        border-radius: 5px; 
+    }
+    
+   
  
 }

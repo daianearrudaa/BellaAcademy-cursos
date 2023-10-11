@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top " id="cabecalho">
-        <div class="container">
+    <header class="navbar navbar-expand-lg  sticky-top " id="cabecalho">
+        <div class="container sm">
             <div class="d-flex align-items-center justify-content-between logo">
                 <div class="d-flex align-items-center">
                     <img id="logo" src="./images/logo.jpg" alt="logo da empresa">
@@ -20,9 +20,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <nav class="navbar-collapse collapse justify-content-end " id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item fw-bold active">
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#carrosel">
+                            <i class="bi bi-heart"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
                         <a class="nav-link" href="#sobre-nos">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre nós
@@ -38,7 +44,7 @@
                     <li class="nav-item fw-bold">
                         <a class="nav-link" href="#fale-conosco">
                             <i class="bi bi-chat-left-text me-1"></i>
-                            Fale conosco
+                            Contato
                         </a>
                     </li>
                 </ul>
@@ -48,7 +54,7 @@
     
 
     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
-        <section >
+        <section id="carrosel" >
             <div class="carousel slide fade-carousel" data-bs-ride="carousel" data-bs-wrap="true" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
@@ -219,7 +225,7 @@
     </div>
 
 
-    <section id="fale-conosco" class="pt-5 pb-7">
+    <section id="fale-conosco" class="pt-4 pb-7 ">
         <div class="container">
             <div class="row">
                 <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
@@ -279,11 +285,13 @@
         </div>
     </section>
 
+    
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="./Js/jquery.mask.min.js"></script>
 <script src="./Js/jquery.validate.min.js"></script>
 <script src="./Js/messages_pt_BR.js"></script>
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
